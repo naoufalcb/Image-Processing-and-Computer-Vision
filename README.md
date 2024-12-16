@@ -21,6 +21,30 @@ This repository contains Jupyter notebooks showcasing foundational algorithms an
      - Access and change pixel values to manipulate the image.
      - Convert image color spaces (e.g., BGR to RGB).
 
+3. **CNN-Based Approach for Traffic Sign Recognition**
+   - File: `CNN_based_Approach_for_Traffic_Sign_Recognition.ipynb`
+   - **What it does:** Implements a Convolutional Neural Network (CNN) for classifying traffic signs from an image dataset.
+   - **Key Steps:**
+     - Preprocess and augment the dataset of traffic sign images.
+     - Train a CNN model for traffic sign classification.
+     - Evaluate the model's performance on test data.
+
+4. **HOG & SVM-Based Approach for Traffic Sign Recognition**
+   - File: `HOG_&_SVM_based_Approach_for_Traffic_Sign_Recognition.ipynb`
+   - **What it does:** Combines HOG features with a Support Vector Machine (SVM) classifier to recognize traffic signs.
+   - **Key Steps:**
+     - Extract HOG features from traffic sign images.
+     - Train an SVM classifier on the extracted features.
+     - Test the model and evaluate its accuracy.
+
+5. **Pedestrian Recognition System**
+   - File: `Pedestrian_Recognition_System.ipynb`
+   - **What it does:** Develops a system to recognize pedestrians in images using image processing techniques and machine learning.
+   - **Key Steps:**
+     - Preprocess pedestrian images for consistent input size.
+     - Extract relevant features and train a recognition model.
+     - Evaluate the system's performance in detecting pedestrians.
+
 ## Techniques Covered
 1. **Histogram of Oriented Gradients (HOG):**
    Extracts key image features by analyzing gradients and their orientation.
@@ -28,6 +52,10 @@ This repository contains Jupyter notebooks showcasing foundational algorithms an
    Includes resizing, color conversion, and preparing images for further analysis.
 3. **Pixel-Level Manipulation:**
    Provides direct control over image pixel values, useful for filtering or annotation.
+4. **Convolutional Neural Networks (CNN):**
+   Applies deep learning techniques for image classification tasks.
+5. **Support Vector Machines (SVM):**
+   Utilizes HOG features with SVM for image classification.
 
 ## Prerequisites
 - Python 3.8 or higher
@@ -37,3 +65,17 @@ This repository contains Jupyter notebooks showcasing foundational algorithms an
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/Image-Processing-and-Computer-Vision.git
+   ```
+2. Navigate to the repository directory:
+   ```bash
+   cd Image-Processing-and-Computer-Vision
+   ```
+3. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Open the Jupyter notebooks:
+   ```bash
+   jupyter notebook
+   ```
+5. Explore the notebooks to learn and experiment with the techniques.
