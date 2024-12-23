@@ -71,10 +71,10 @@ This repository contains Jupyter notebooks showcasing foundational algorithms an
 - Python 3.8 or higher
 - Required libraries are listed in `requirements.txt`.
 
-## How to Run
+## How to Run Locally
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/Image-Processing-and-Computer-Vision.git
+   git clone https://github.com/naoufalcb/Image-Processing-and-Computer-Vision.git
    ```
 2. Navigate to the repository directory:
    ```bash
@@ -88,3 +88,18 @@ This repository contains Jupyter notebooks showcasing foundational algorithms an
    ```bash
    jupyter notebook
    ```
+
+## How to Run on Google Colab
+1. Open [Google Colab](https://colab.research.google.com/).
+2. Upload the desired notebook (`.ipynb` file) by selecting **File > Upload notebook**.
+3. Upload the repository files to your Google Drive or directly to Colab:
+   - Use the following code snippet in a new Colab cell to clone the repository:
+     ```python
+     !git clone https://github.com/naoufalcb/Image-Processing-and-Computer-Vision.git
+     ```
+4. Navigate to the desired notebook within the repository directory in Colab's file explorer.
+5. Install the dependencies:
+   ```python
+   !pip install -r Image-Processing-and-Computer-Vision/requirements.txt
+   ```
+6. Run the notebook cells interactively in Colab.
