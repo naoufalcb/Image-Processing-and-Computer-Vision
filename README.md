@@ -45,6 +45,14 @@ This repository contains Jupyter notebooks showcasing foundational algorithms an
      - Extract relevant features and train a recognition model.
      - Evaluate the system's performance in detecting pedestrians.
 
+6. **Clustering in Image Processing**
+   - File: `Clustering_in_Image_Processing.ipynb`
+   - **What it does:** Explores clustering techniques for image segmentation and grouping similar pixels or image patches.
+   - **Key Steps:**
+     - Preprocess images to extract relevant features for clustering.
+     - Apply clustering algorithms (e.g., K-means, DBSCAN) to segment the image.
+     - Visualize the clustering results to demonstrate segmentation effectiveness.
+
 ## Techniques Covered
 1. **Histogram of Oriented Gradients (HOG):**
    Extracts key image features by analyzing gradients and their orientation.
@@ -56,6 +64,8 @@ This repository contains Jupyter notebooks showcasing foundational algorithms an
    Applies deep learning techniques for image classification tasks.
 5. **Support Vector Machines (SVM):**
    Utilizes HOG features with SVM for image classification.
+6. **Clustering Algorithms:**
+   Groups similar data points, useful in tasks like image segmentation.
 
 ## Prerequisites
 - Python 3.8 or higher
@@ -78,4 +88,3 @@ This repository contains Jupyter notebooks showcasing foundational algorithms an
    ```bash
    jupyter notebook
    ```
-5. Explore the notebooks to learn and experiment with the techniques.
